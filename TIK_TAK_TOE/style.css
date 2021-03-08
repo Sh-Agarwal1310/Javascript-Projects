@@ -1,0 +1,18 @@
+#mainDiv{
+    text-align: center;
+}
+.game--container{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    margin: 50px auto;
+}
+
+.cell{
+    width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 60px;
+}

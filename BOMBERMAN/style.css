@@ -1,0 +1,25 @@
+#root{
+    align-items: center;
+}
+.grid{
+    box-sizing: border-box;
+    margin: 0.1%;
+    /* height: 5vh; */
+    align-items: center;
+    /* background-color: gray; */
+    display: flex;
+    justify-content: center;
+}
+
+.box{
+    display: flex;
+    box-sizing: border-box;
+    border: solid 2px black;
+    height: 5vh;
+    width: 5vw;
+    background-color: gray;
+}
+#resetButton{
+    color: green;
+    background-color: lightgreen;
+}
